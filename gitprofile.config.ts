@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'This website is both my past personal website and a website still used by dozens of students from my past CPGE to access archives of ressources. ',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://raw.githubusercontent.com/malerbe/malerbe.github.io/refs/heads/main/personalwebsitepng.png',
           link: 'https://cpge.loucamalerba.fr',
         },
       ],

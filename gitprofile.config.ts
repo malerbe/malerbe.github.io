@@ -72,12 +72,12 @@ const CONFIG = {
   },
   skills: [
   'Python',
-  'Machine Learning',
-  'Deep Learning',
+  'PHP',
+  'C++',
+  'Data Science',
   'Computer Vision',
   'Medical Imaging',
   'PyTorch',
-  'scikit-learn',
   'Pandas',
   'NumPy',
   'Matplotlib',
@@ -171,7 +171,7 @@ educations: [
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'pastel',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -226,11 +226,11 @@ educations: [
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };

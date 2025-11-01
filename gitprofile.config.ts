@@ -38,12 +38,12 @@ const CONFIG = {
             'This website is both my past personal website and a website still used by dozens of students from my past CPGE to access archives of ressources. ',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://cpge.loucamalerba.fr',
         },
       ],
     },
   },
-  seo: { title: 'Louca Malerba', description: 'CS Graduate Student @ CentraleSupélec | Apprentice Research Engineer @ GE Healthcare', imageURL: '' },
+  seo: { title: 'Louca Malerba', description: '', imageURL: '' },
   social: {
     linkedin: 'loucamalerba',
     x: '',

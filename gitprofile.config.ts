@@ -62,9 +62,9 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'loucamalerba',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -74,73 +74,99 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.loucamalerba.fr',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'louca.malerba@student-cs.fr',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
-  educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
+  'Python',
+  'Machine Learning',
+  'Deep Learning',
+  'Computer Vision',
+  'Medical Imaging',
+  'nnU-Net',
+  'nnDetection',
+  'PyTorch',
+  'scikit-learn',
+  'Pandas',
+  'NumPy',
+  'Matplotlib',
+  'Seaborn',
+  'SQL',
+  'Power BI',
+  'Git',
+  'LaTeX',
+  'HTML',
+  'CSS',
+],
+
+experiences: [
+  {
+    company: 'GE HealthCare',
+    position: 'Apprentice Research Engineer',
+    from: 'June 2025',
+    to: 'Present',
+    companyLink: 'https://www.gehealthcare.com/',
+  },
+  {
+    company: 'GE HealthCare',
+    position: 'Machine Learning & Data Science Apprentice',
+    from: 'October 2023',
+    to: 'October 2025',
+    companyLink: 'https://www.gehealthcare.com/',
+  },
+],
+
+certifications: [
+  {
+    name: 'Certification AMF',
+    body: 'Autorité des marchés financiers (AMF) – France',
+    year: 'July 2025',
+    link: 'https://www.amf-france.org/',
+  },
+  {
+    name: 'Cambridge Advanced Certificate (C1)',
+    body: 'Cambridge University Press & Assessment',
+    year: 'July 2019',
+    link: 'https://www.cambridgeenglish.org/',
+  },
+],
+
+educations: [
+  {
+    institution: 'CentraleSupélec',
+    degree: "Master’s Degree (M2) in General Engineering",
+    from: '2023',
+    to: '2026',
+  },
+  {
+    institution: 'Lycée Jules Ferry',
+    degree: 'Classes Préparatoires (CPGE) PTSI/PT*',
+    from: '2021',
+    to: '2023',
+  },
+  {
+    institution: 'Institution des Chartreux',
+    degree: 'Baccalauréat, Physique–Mathématiques',
+    from: '2016',
+    to: '2021',
+  },
+  {
+    institution: 'Cistercian College Roscrea',
+    degree: 'One-year academic exchange (English-speaking), Première equivalent',
+    from: '2018',
+    to: '2019',
+  },
+],
   publications: [
     //{
     //  title: 'Publication Title',
@@ -153,14 +179,14 @@ const CONFIG = {
     //}
   ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 2, // How many articles to display. Max is 10.
+  // },
+  // googleAnalytics: {
+  //   id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+  // },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {

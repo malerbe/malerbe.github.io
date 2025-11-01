@@ -28,23 +28,6 @@ const CONFIG = {
         projects: ['malerbe/Encoders_Explained', 'malerbe/Decoders_Explained'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    github: {
-      display: true, // Display GitHub projects?
-      header: 'Competitions',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 0, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['malerbe/QRT_challenge'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
-    },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.

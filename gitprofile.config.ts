@@ -102,7 +102,7 @@ experiences: [
     company: 'GE HealthCare',
     position: 'Machine Learning & Data Science Apprentice',
     from: 'October 2023',
-    to: 'October 2025',
+    to: 'June 2025',
     companyLink: 'https://www.gehealthcare.com/',
   },
 ],

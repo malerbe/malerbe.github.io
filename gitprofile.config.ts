@@ -68,7 +68,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://raw.githubusercontent.com/malerbe/malerbe.github.io/refs/heads/main/CV_2025.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
   'Python',

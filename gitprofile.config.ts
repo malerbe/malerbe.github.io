@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'GitHub Repositories',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 0, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['malerbe/Encoders_Explained', 'malerbe/Decoders_Explained', 'malerbe/QRT_Challenge', 'malerbe/Dual-sPLS'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['malerbe/Encoders_Explained', 'malerbe/Decoders_Explained', 'malerbe/QRT_Challenge', 'malerbe/Dual-sPLS', 'malerbe/plankton-segmentation-active-learning'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {

@@ -68,7 +68,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://raw.githubusercontent.com/malerbe/malerbe.github.io/refs/heads/main/CV_Louca_Malerba_2026-4.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://raw.githubusercontent.com/malerbe/malerbe.github.io/refs/heads/main/CV_Louca_Malerba_2026-5.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
   'Python',

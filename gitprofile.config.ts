@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['malerbe/Encoders_Explained', 'malerbe/Decoders_Explained', 'malerbe/QRT_Challenge', 'malerbe/Dual-sPLS', 'malerbe/plankton-segmentation-active-learning'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['malerbe/Encoders_Explained', 'malerbe/Decoders_Explained', 'malerbe/QRT_Challenge', 'malerbe/Dual-sPLS', 'malerbe/plankton-segmentation-active-learning', 'malerbe/cteph-lesion-typing'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -68,7 +68,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://raw.githubusercontent.com/malerbe/malerbe.github.io/refs/heads/main/CV_Louca_Malerba_2026-5.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://raw.githubusercontent.com/malerbe/malerbe.github.io/refs/heads/main/CV_Louca_Malerba_2026_2-2.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
   'Python',
